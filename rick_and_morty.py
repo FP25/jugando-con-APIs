@@ -1,5 +1,10 @@
 import random as ran
+from tkinter.tix import IMAGE
+
 import requests
+import PIL
+from PIL.Image import Image
+
 
 def estado(valor):
     if valor.lower()=="alive":
